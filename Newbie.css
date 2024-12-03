@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: 1px solid;
+    height: 99.5vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.parent{
+    border: 1px solid black;
+    height: 75vh;
+    width: 25vw;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 9px 9px black;
+}
+svg{
+    border-radius: 18px;
+}
+button{
+    margin-top: 20px;
+    background-color: hsl(47, 88%, 63%) ;
+    height: 30px;
+    width: 90px;
+    border: none;
+    font-family: 'figtree';
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+/* div.child{
+    border: 1px solid;
+} */
+p.pub{
+padding-top: 10px;
+font-family: 'figtree';
+font-size: 15px;
+color:  hsl(0, 0%, 7%);
+}
+p.word{
+    font-family: 'figtree';
+    color: hsl(0, 0%, 42%);
+    line-height: 25px;
+}
+h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'figtree';
+    cursor: pointer;
+
+}
+.greg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 135px;
+    font-family: 'figtree';
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 15px;
+}
+img{
+    width: 30px;
+}
+h2:hover{
+    color: hsl(47, 88%, 63%) ;
+}
